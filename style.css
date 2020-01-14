@@ -1,0 +1,199 @@
+.custom-h-100 {
+    height: 100opx;
+}
+
+.custom-relative {
+    position: relative;
+}
+
+.custom-fixed {
+    position: fixed;
+}
+
+
+/* .custom-left { 
+    left: 50px;
+}*/
+
+.custom-button {
+    background: #810b16;
+    border: 1px solid #810b16;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.custom-button h5 {
+    font-size: 15px!important;
+}
+
+.custom-button p,
+.custom-button h5 {
+    padding: 0;
+    margin: 0;
+}
+
+.custom-item {
+    border-radius: 0!important;
+    background-color: transparent;
+    border: none;
+}
+
+.mt-10 {
+    margin-top: 6rem;
+}
+
+.w-20px {
+    width: 20px;
+}
+
+.flip-image {
+    transform: scaleX(-1);
+}
+
+.custom-search-border {
+    width: 40%;
+    height: 25px;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding-bottom: 27px;
+}
+
+#search-input {
+    height: 20px;
+    border: none;
+    outline: none;
+    width: 150px;
+}
+
+.custom-nav {
+    background-color: #ffffff;
+}
+
+.custom-admin p {
+    font-size: 10px!important;
+}
+
+.custom-admin h6 {
+    font-size: 10px!important;
+}
+
+.h-10 {
+    height: 70px;
+    width: 20px;
+    line-height: 0px!important;
+}
+
+#rest {
+    border: none;
+    outline: none;
+}
+
+.custom-placeholder::placeholder {
+    font-size: 10px;
+    color: lightgray;
+}
+
+.fa-search {
+    font-size: 10px;
+}
+
+.f-10 {
+    font-size: 10px;
+}
+
+.f-15 {
+    font-size: 15px;
+}
+
+.flip-icon {
+    transform: scaleX(-1);
+}
+
+.f-10-color {
+    font-size: 10px;
+    color: lightgray;
+}
+
+.f-15-color {
+    font-size: 15px;
+    color: lightgray;
+}
+
+.custom-search-input {
+    border: 1px solid lightgray;
+    border-radius: 7px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    color: lightgray;
+}
+
+.aside-background {
+    background-color: lightgray;
+}
+
+.message-border {
+    border: 1px solid lightgray;
+    background-color: lightgray;
+    border-bottom: 1px solid grey;
+}
+
+.message-no-btm {
+    border: 1px solid lightgray;
+    background-color: lightgray;
+}
+
+.message-border-orange {
+    border: 1px solid orange;
+    background-color: orange;
+    border-radius: 7px;
+    color: white!important;
+}
+
+.custom-text-border {
+    border: 1px solid orange;
+    padding: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    color: white!important;
+}
+
+.custom-text-border-reply {
+    border: 1px solid grey;
+    padding: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: grey;
+    color: white!important;
+}
+
+#type-something {
+    border: none;
+    outline: none;
+    width: 400px;
+    background-color: white!important;
+}
+
+.custum-something {
+    margin-left: 60px;
+    margin-right: 30px;
+    border: 1px solid white;
+    padding-left: 10px;
+    border-radius: 7px;
+    background-color: white!important;
+    width: 500px;
+}
+
+.send-icon {
+    transform: scaleX(1);
+}
+
+.custom-1nput-margin {
+    margin-top: 100px;
+}
