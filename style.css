@@ -68,6 +68,7 @@
     border: none;
     outline: none;
     width: 150px;
+    background-color: #e2e2ec;
 }
 
 .custom-nav {
@@ -98,6 +99,12 @@
     color: lightgray;
 }
 
+.custom-placeholder-message::placeholder {
+    font-size: 10px;
+    color: #777e9c;
+    background-color: #e2e2ec;
+}
+
 .fa-search {
     font-size: 10px;
 }
@@ -125,37 +132,44 @@
 }
 
 .custom-search-input {
-    border: 1px solid lightgray;
+    border: 1px solid #e2e2ec;
     border-radius: 7px;
-    padding-bottom: 4px;
+    padding-bottom: 6px;
     padding-top: 4px;
-    color: lightgray;
+    background-color: #e2e2ec!important;
 }
 
 .aside-background {
-    background-color: lightgray;
+    background-color: #eaebf0;
+}
+
+.message-border-top {
+    border: 1px solid #eaebf0;
+    background-color: #eaebf0;
+    border-bottom: 2px solid #e1e1e9;
+    border-top: 2px solid #e1e1e9;
 }
 
 .message-border {
-    border: 1px solid lightgray;
-    background-color: lightgray;
-    border-bottom: 1px solid grey;
+    border: 1px solid #eaebf0;
+    background-color: #eaebf0;
+    border-bottom: 2px solid #e1e1e9;
 }
 
 .message-no-btm {
-    border: 1px solid lightgray;
-    background-color: lightgray;
+    border: 1px solid #eaebf0;
+    background-color: #eaebf0;
 }
 
 .message-border-orange {
-    border: 1px solid orange;
+    border: 1px solid #ffc107;
     background-color: orange;
     border-radius: 7px;
     color: white!important;
 }
 
 .custom-text-border {
-    border: 1px solid orange;
+    border: 1px solid #ffc107;
     padding: 10px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
